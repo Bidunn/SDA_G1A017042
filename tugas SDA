@@ -18,3 +18,5 @@ system(“PAUSE”);
 Program ini merupakan contoh sederhana dalam penggunaan ADT(Abtrak Data Type). 
 Program ini diawali dengan typdef yang merupakan ciri khas dari ADT tersebut. 
 Program ini hanya meminta user menginputkan angka yang akan dijadikan sebagai umur dan menginputkan huruf yang akan dijadikan sebagai nama user.
+
+Muhammad Hanif Al Abid G1A017042
