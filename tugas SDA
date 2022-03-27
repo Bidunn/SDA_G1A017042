@@ -1,22 +1,19 @@
-#include <stdio.h>
-#include <conio.h>
-typedef int angka;
-typedef char huruf;
-int main(){
-angka umur;
-huruf h;
-huruf nama[10];
-printf(“masukkan umur anda : “);scanf(“%d”,&umur);
-printf(“Umur anda adalah %d”,umur);
-printf(“\nmasukkan huruf : “);h=getche();
-printf(“\nHuruf anda %c”,h);
-printf(“\nmasukkan nama : “);scanf(“%s”,nama);
-printf(“Nama anda %s”,nama);
-getch();
-system(“PAUSE”);
-}
+#include<iostream>
+using namespace std;
+int main()
+{
+ int x,y,z,result;
+ 
+ x=50;
+ y=5;
+z=20;
+ result=x+y*z;
+
+ cout<<"\nHasil Penjumlahan = "<<result<<endl;
+ return 0; }
+ 
 Program ini merupakan contoh sederhana dalam penggunaan ADT(Abtrak Data Type). 
-Program ini diawali dengan typdef yang merupakan ciri khas dari ADT tersebut. 
-Program ini hanya meminta user menginputkan angka yang akan dijadikan sebagai umur dan menginputkan huruf yang akan dijadikan sebagai nama user.
+
+Program ini hanya menjumlahkan bilangan yang telah ditentukan sebelumnya dan menampilkan hasil dari penjumlahan tersebut
 
 Muhammad Hanif Al Abid G1A017042
